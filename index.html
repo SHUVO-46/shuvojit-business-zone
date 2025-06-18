@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SK SHUVOJIT | BACF Khulna Branch</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Welcome to SK SHUVOJIT's Site</h1>
+    <p class="subtitle">
+      ☠️SK SHUVOJIT☠️ Member Of Bangladesh Anonymous Cyber Force. <br />
+      BACF Cyber Unit Khulna Branch.
+    </p>
+    <div class="contact-info">
+      Contact Info: 
+      <a href="https://www.facebook.com/MaGi.Doroja.KhoL" target="_blank" rel="noopener">Facebook</a> | 
+      <a href="https://t.me/shuvojit46" target="_blank" rel="noopener">Telegram</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="card" id="today-rate">
+      <div class="card-header">
+        <img src="icons/rate.png" alt="Rate Logo" class="icon" />
+        <h2>TODAY ALL ID RATE</h2>
+      </div>
+      <div class="card-body">
+        <p><strong>00Fd 2Fa Account</strong> Normal Rate : 8.20 tk | 100+ Acc rate: 8.50 tk</p>
+        <p><strong>30+Fd 2Fa Account</strong> Normal Rate : 15.00 tk | 50+ Acc rate : 15.50 tk</p>
+      </div>
+    </section>
+
+    <section class="card" id="member-info" onclick="showSection('members')">
+      <div class="card-header">
+        <img src="icons/member.png" alt="Member Logo" class="icon" />
+        <h2>MEMBER INFO</h2>
+      </div>
+      <div class="card-body">
+        <ul id="member-list">
+          <li>example1 : 1000 tk</li>
+          <li>example2 : 1200 tk</li>
+          <li>example3 : 800 tk</li>
+          <li>example4 : 1500 tk</li>
+          <li>example5 : 500 tk</li>
+          <li>example6 : 1100 tk</li>
+          <li>example7 : 700 tk</li>
+          <li>example8 : 1300 tk</li>
+          <li>example9 : 900 tk</li>
+          <li>example10 : 1400 tk</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card" id="payment-info" onclick="showSection('payments')">
+      <div class="card-header">
+        <img src="icons/payment.png" alt="Payment Logo" class="icon" />
+        <h2>PAYMENT INFO</h2>
+      </div>
+      <div class="card-body">
+        <ul id="payment-list">
+          <li>example1 : PAID</li>
+          <li>example2 : NOT PAY</li>
+          <li>example3 : PAID</li>
+          <li>example4 : NOT PAY</li>
+          <li>example5 : PAID</li>
+          <li>example6 : PAID</li>
+          <li>example7 : NOT PAY</li>
+          <li>example8 : PAID</li>
+          <li>example9 : NOT PAY</li>
+          <li>example10 : PAID</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card" id="file-submit" onclick="showSection('submit')">
+      <div class="card-header">
+        <img src="icons/submit.png" alt="Submit Logo" class="icon" />
+        <h2>FILE SUBMIT</h2>
+      </div>
+      <div class="card-body">
+        <p>আপনার সম্পূর্ণ ফাইলের uid+pass+2fa কপি করে বক্সের ভিতরে পেস্ট করে সাবমিট করুন,তবে একই ফাইল দুইবার জমা দিলে পেমেন্ট পাবেন না🚫</p>
+        <textarea id="submit-text" placeholder="এখানে A, B, C, D কলামের টেক্সট একত্রে পেস্ট করুন..."></textarea>
+        <button id="submit-btn">SUBMIT</button>
+        <div id="submit-msg"></div>
+      </div>
+    </section>
+
+    <section id="details-section" class="hidden">
+      <button onclick="hideSection()">Back</button>
+      <div id="details-content"></div>
+    </section>
+  </main>
+</body>
+</html>
